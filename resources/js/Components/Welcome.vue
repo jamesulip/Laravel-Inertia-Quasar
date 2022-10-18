@@ -3,7 +3,8 @@ import ApplicationLogo from '@/Components/ApplicationLogo.vue';
 </script>
 
 <template>
-    <div>
+    <q-card flat bordered class="p-0">
+    <q-card-section class="p-0">
         <div class="p-6 sm:px-20 bg-white border-b border-gray-200">
             <div>
                 <ApplicationLogo class="block h-12 w-auto" />
@@ -21,7 +22,9 @@ import ApplicationLogo from '@/Components/ApplicationLogo.vue';
             </div>
         </div>
 
-        <div class="bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2">
+        </q-card-section>
+        <q-card-section class="p-0">
+            <div class="bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2">
             <div class="p-6">
                 <div class="flex items-center">
                     <svg
@@ -133,6 +136,7 @@ import ApplicationLogo from '@/Components/ApplicationLogo.vue';
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </div></q-card-section>
+    </q-card>
+
 </template>
