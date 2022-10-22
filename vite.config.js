@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import Unocss from '@unocss/vite'
 import presetWind from '@unocss/preset-wind'
+// import { presetForms } from '@julr/unocss-preset-forms'
 import laravel from 'laravel-vite-plugin';
 import vue from '@vitejs/plugin-vue';
 import { quasar, transformAssetUrls } from '@quasar/vite-plugin'
@@ -17,7 +18,6 @@ export default defineConfig({
         }),
         vue({
             template: {
-
                 transformAssetUrls: {
                     base: null,
                     includeAbsolute: false,

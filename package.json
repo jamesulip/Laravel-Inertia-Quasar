@@ -22,8 +22,11 @@
         "vue": "^3.2.31"
     },
     "dependencies": {
+        "@julr/unocss-preset-forms": "^0.0.2",
         "@quasar/extras": "^1.15.5",
+        "@unocss/reset": "^0.45.30",
         "@unocss/vite": "^0.45.30",
+        "pinia": "^2.0.23",
         "quasar": "^2.10.0"
     }
 }
