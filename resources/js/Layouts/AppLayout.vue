@@ -33,7 +33,7 @@
         </q-toolbar>
       </q-header>
 
-      <q-drawer v-model="leftDrawerOpen" side="left" overlay behavior="desktop">
+      <q-drawer bordered v-model="leftDrawerOpen" side="left" overlay behavior="desktop">
         <!-- drawer content -->
       </q-drawer>
 
